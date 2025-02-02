@@ -83,11 +83,12 @@ function Navbar({
           right: 0,
           top: 0,
           height: '6px',
-          backgroundColor: 'slategray',
+          backgroundColor: 'transparent',
           transformOrigin: 'left',
           zIndex: 100,
           borderRadius: '0 0 8px 8px'
         }} 
+        className="bg-gradient-to-r from-[#A97CF8] via-[#F38CB8] to-[#FDCC92]"
       />
     </div>)
   );
