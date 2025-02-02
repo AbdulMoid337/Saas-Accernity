@@ -11,6 +11,7 @@ import { Footer } from '../components/Footer';
 import { MarqueeDemo, ReviewCard } from '../components/Marquee';
 import { LampDemo } from '../components/ui/lamp';    
 import { AnimatedBeamDemo as Beam } from "../components/Beam";
+import { HoverImageLinks } from '../components/Links';
 
 const Page = () => {
   const [isClient, setIsClient] = useState(false);
@@ -64,6 +65,7 @@ const Page = () => {
           ))}
         </MarqueeDemo>
       </div>
+      <HoverImageLinks />
       <Footer />
     </div>
   )
