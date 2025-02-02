@@ -83,7 +83,7 @@ function Navbar({
           right: 0,
           top: 0,
           height: '6px',
-          backgroundColor: 'pink',
+          backgroundColor: 'slategray',
           transformOrigin: 'left',
           zIndex: 100,
           borderRadius: '0 0 8px 8px'

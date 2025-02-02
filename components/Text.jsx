@@ -6,8 +6,8 @@ const words = `Oxygen gets you high. frfrrgr grregrgg gergerggrrgg In a catastro
 
 export function TextGenerateEffectDemo() {
   return (
-    <div className="w-full h-[20rem] flex items-center justify-center bg-neutral-950 px-4">
-      <div className="max-w-4xl">
+    <div className="w-full h-[20rem] flex  items-center justify-center bg-neutral-950 px-4">
+      <div className="max-w-4xl ">
         <TextGenerateEffect words={words} />
       </div>
     </div>
