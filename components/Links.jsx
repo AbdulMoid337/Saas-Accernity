@@ -12,12 +12,12 @@ export const HoverImageLinks = () => {
           imgSrc="https://images.unsplash.com/photo-1643695693709-c0fcd6a8aa38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGludGVyY2VwdG9yfGVufDB8fDB8fHww"
           href="#"
         />
-        <Link
+        {/* <Link
           heading="Clients"
           subheading="We work with great people"
           imgSrc="https://images.unsplash.com/photo-1643695693709-c0fcd6a8aa38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGludGVyY2VwdG9yfGVufDB8fDB8fHww"
           href="#"
-        />
+        /> */}
         <Link
           heading="Portfolio"
           subheading="Our work speaks for itself"
